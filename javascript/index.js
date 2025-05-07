@@ -22,7 +22,7 @@ function displayContacts(contacts) {
         const div = document.createElement('div');
         div.className = 'contact-item';
         div.innerHTML = `
-            <span class="d-flex gap-3 justify-content-center align-items-center"><img src="./user.png" alt="phone-img" height="40px"/>${contact.name} - ${contact.phone}</span>
+            <span class="d-flex gap-3 justify-content-center align-items-center"><img src="../user.png" alt="phone-img" height="40px"/>${contact.name} - ${contact.phone}</span>
             <div>
                 <button class="btn btn-edit btn-sm me-2" onclick="editContact('${contact.id}', '${contact.name}', '${contact.phone}')">Edit</button>
                 <button class="btn btn-delete btn-sm" onclick="deleteContact('${contact.id}')">Delete</button>
