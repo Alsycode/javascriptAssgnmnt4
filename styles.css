@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(135deg, #20002c, #cbb4d4);
+    padding-top: 20px;
+    min-height: 100vh;
+    font-family: "Commissioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "FLAR" 0,
+        "VOLM" 0;
+}
+
+h1, h2 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.contact-item {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.btn-edit {
+    background: rgba(255, 193, 7, 0.2);
+    border: 1px solid rgba(255, 193, 7, 0.5);
+    color: #ffc107;
+}
+
+.btn-edit:hover {
+    background: rgba(255, 193, 7, 0.3);
+    border-color: #e0a800;
+}
+
+.btn-delete {
+    background: rgba(220, 53, 69, 0.2);
+    border: 1px solid rgba(220, 53, 69, 0.5);
+    color: #dc3545;
+}
+
+.btn-delete:hover {
+    background: rgba(220, 53, 69, 0.3);
+    border-color: #c82333;
+}
+
+.btn-success, .btn-primary {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+
+.btn-success:hover {
+    background: rgba(76, 175, 80, 0.3);
+    border-color: #45a049;
+}
+
+.btn-primary:hover {
+    background: rgba(13, 110, 253, 0.3);
+    border-color: #0a58ca;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+}
+
+#error {
+    min-height: 24px;
+    color: #ff6b6b;
+}
